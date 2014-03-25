@@ -16,7 +16,7 @@ public class Menu extends ListActivity{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
-		super.onCreate(savedInstanceState);
+		super.onCreate(savedInstanceState);//gh
 		
 		setListAdapter(new ArrayAdapter<String>(Menu.this, android.R.layout.simple_list_item_1, classes));
 		
